@@ -1,3 +1,10 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
 eureka:
   client:
     register-with-eureka: true
@@ -16,3 +23,4 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/createOrder
+
